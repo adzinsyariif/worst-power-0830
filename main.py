@@ -33,10 +33,15 @@
 # Revision 1: add the unit "in Celsius" — criterion 4 (tight, specific, concrete detail).
 # A bare "exact temperature" is abstract; a Celsius reading fixes the power in the world
 # and makes the hero's announcement funnier to picture ("73 degrees Celsius!").
+#
+# Revision 2 (final): tighten "exact temperature in Celsius" -> "exact Celsius temperature"
+# (criterion 4, fewer words, same detail) and keep "already tasting" — the loop that makes
+# it genuinely useless (criterion 1): the reading arrives only once the soup is in your
+# mouth, too late to warn, choose, or change anything. Single sentence, clear at once (5).
 
 import os
 
-ENTRY = "You can instantly know the exact temperature in Celsius of any soup you are already tasting."
+ENTRY = "You can instantly know the exact Celsius temperature of any soup you are already tasting."
 
 
 def main():
