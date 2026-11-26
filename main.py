@@ -28,11 +28,15 @@
 #   3:4 (loop structure is somewhat familiar)  4:3 (little concrete detail)  5:5  -> 21
 #
 # Winner: Candidate C — the only one scoring 5 on criterion 1 without quietly helping,
-# and the most visual joke. Draft below is Candidate C verbatim; tighten in revisions.
+# and the most visual joke.
+#
+# Revision 1: add the unit "in Celsius" — criterion 4 (tight, specific, concrete detail).
+# A bare "exact temperature" is abstract; a Celsius reading fixes the power in the world
+# and makes the hero's announcement funnier to picture ("73 degrees Celsius!").
 
 import os
 
-ENTRY = "You can instantly know the exact temperature of any soup you are already tasting."
+ENTRY = "You can instantly know the exact temperature in Celsius of any soup you are already tasting."
 
 
 def main():
